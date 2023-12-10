@@ -1,0 +1,180 @@
+/* RESET */
+*{
+    margin: 0; 
+    padding: 0; 
+    font-size: 100%; 
+    font-family: 'Roboto', sans-serif; 
+    box-sizing: border-box; 
+    border: none; 
+    outline: none;
+    background-color: #232830;
+    color: white;
+}
+
+img{
+    max-width: 100%;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    font-size: 1.5em; 
+    color: #7d6b7d;
+}
+p{
+    font-size: 1em; 
+    color: white;
+
+}
+
+
+#header {
+    width: 100%;
+    float: left;
+}
+
+#img_logo {
+    padding: 50px 8%;
+    display: flex;
+}
+
+#texto_logo {
+    margin-left: 24px;
+    margin-top: 18px;
+}
+
+#img_logo_svg {
+    width: 50px;
+    height: 50px;
+}
+
+#menu_logo {
+    width: 30%; 
+    float: right;
+    margin-top: -84px;
+}
+
+#menu_logo ul {
+    display: flex;
+}
+
+#menu_logo li {
+    padding: 10px;
+}
+
+/* MENU */
+#menu{
+    width: 100%; 
+    padding: 18px 8%; 
+    float: left;
+}
+#menu li{
+    float: left;
+}
+#menu li a{
+    color: white; 
+    margin-right: 25px;
+}
+#menu li a:hover{
+    color: #FF7575;
+}
+
+
+#rodape{
+    width: 100%; 
+    float: left; 
+    padding: 20px 8%;
+    border-top: 1px solid #181b20;
+    margin-top: 25px;
+}
+
+#rodape p{
+    color: white; 
+    float: right;
+}
+
+.card {
+    width: 300px;
+    border: 1px solid #252930;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.card h2{
+    background-color: white;
+}
+
+/* Estilos para o cabeçalho do card */
+.card-header {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilos para o conteúdo do card */
+.card-content {
+    padding: 20px;
+    background-color: white;
+}
+
+.card-content p{
+    background-color: white;
+    color: #252930;
+}
+
+/* Estilos para o rodapé do card */
+.card-footer {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.card-footer p{
+    background-color: white;
+    color: #232830;
+}
+
+.cardsP {
+    display: inline-flex;
+    margin-left: 150px;
+}
+
+.pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+/* Estilos para os itens da lista de paginação */
+.pagination li {
+    margin-right: 5px;
+}
+
+/* Estilos para os links da lista de paginação */
+.pagination a {
+    display: block;
+    padding: 8px 12px;
+    text-decoration: none;
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Estilos para o link ativo da paginação */
+.pagination .active a {
+    background-color: #FF7575;
+    color: #fff;
+}
+
+
+.paginacao {
+    margin-left: 38%;
+}
